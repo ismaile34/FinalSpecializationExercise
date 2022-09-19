@@ -4,7 +4,7 @@
     var i = 0;
     foreach (var value in array)
     {
-        if (value.Length <= 3)
+        if (value.Length <= 3 && value.Length != 0)
         {
             result[i] = value;
             i++;
